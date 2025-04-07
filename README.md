@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevConnect
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/2c4a7d7f-30e2-49cb-a8c0-74fca0a256f7)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A modern, responsive developer-focused chat application built with React and TypeScript. DevConnect provides a Discord-inspired interface for team communication with channels, direct messages, code sharing, media uploads, and more.
+
+## 🌟 Features
+
+- **Dark/Light Mode** - Toggle between dark and light themes
+- **Channels** - Public topic-based chat rooms for team discussions
+- **Direct Messages** - Private one-on-one communication
+- **Code Blocks** - Syntax highlighting for code snippets
+- **Emoji Reactions** - Interactive reactions to messages
+- **Media Sharing** - Upload and share images and GIFs
+- **Real-time Notifications** - Stay updated with unread message counters
+- **User Search** - Easily find team members to start conversations
+- **Responsive Design** - Works on desktop and mobile devices
+- **Interactive UI** - Rich animations and transitions for a polished experience
+
+## 📋 Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+- React 18.x
+
+## 🚀 Getting Started
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/devconnect.git
+   cd devconnect
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or with yarn
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or with yarn
+   yarn dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`
+
+## 🧱 Project Structure
+
+```
+/devconnect
+  /components
+    DevConnectApp.tsx  - Main application component
+  /styles
+    globals.css        - Global styles
+  /public
+    /images            - Static images
+  /pages
+    _app.tsx           - Next.js app wrapper
+    index.tsx          - Main page
+  /types
+    index.ts           - TypeScript type definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Next.js** - React framework
+- **Lucide React** - Icon library
+- **TailwindCSS** - Utility-first CSS framework
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Usage
 
-## Learn More
+### Channels
 
-To learn more about Next.js, take a look at the following resources:
+DevConnect comes with several pre-configured channels:
+- **#general** - For general team discussions
+- **#frontend** - For frontend development topics
+- **#backend** - For backend development topics
+- **#devops** - For deployment and infrastructure discussions
+- **#random** - For non-work related conversations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Sharing Code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To share code snippets, surround your code with triple backticks:
 
-## Deploy on Vercel
+```
+```javascript
+function example() {
+  console.log('Hello DevConnect!');
+}
+```
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Emoji Reactions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click the "Add reaction" button below any message to add emoji reactions. You can also click on existing reactions to add your own.
+
+### Uploading Media
+
+Click the paperclip icon in the message input to upload images or GIFs.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📧 Contact
+
+Project Link: [https://github.com/yourusername/devconnect](https://github.com/yourusername/devconnect)
+
+## 🙏 Acknowledgements
+
+- [Lucide Icons](https://lucide.dev/)
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
